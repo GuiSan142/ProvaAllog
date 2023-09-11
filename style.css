@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-service-list__container{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.section-service-list__menu{
+    width: 15%;
+    background-color: #0F172A;
+}
+.section-service-list__icons{
+    display: flex;
+    flex-direction: row;
+    gap: 70%;
+    padding: 1.5vw;
+}
+.section-service-list__notification-icon{
+    width: 12%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.section-service-list__bell-icon{
+    font-size: 2vw;
+    grid-area: 1/1;
+    color: #4D5975;
+}
+.section-service-list__circle-icon{
+    font-size: 1.2vw;
+    padding-left: 0.265vw;
+    grid-area: 1/1;
+    color: #0D9488;
+}
+.section-service-list__number{
+    font-size: 1.2vw;
+    grid-area: 1/1;
+    color: #FFFFFF;
+    padding-left: 0.4vw;
+    font-family: 'Roboto';
+}
+.section-service-list__gear-icon{
+    font-size: 2vw;
+    color: #CDCDCD;
+}
+.section-service-list__user-infos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.section-service-list__image{
+    width: 57%;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    border-radius: 50%;
+}
+.section-service-list__username{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 1vw;
+}
+.section-service-list__side-bar{
+    color: #CDCDCD;
+    font-family: "Roboto";
+    margin: 1.5vw;
+    align-items: center;
+    margin-top: 3vw;
+}
+.section-service-list__side-bar-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+.section-service-list__side-bar-content{
+    display: flex;
+    flex-direction: row;
+}
+.section-service-list__side-bar-icon{
+    font-size: 1.4vw;
+    margin-right: 1vw;
+}
+.section-service-list__adjusts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.section-service-list__side-bar-text{
+    font-size: 1.2vw;
+}
+.section-service-list__side-bar-arrow{
+    font-size: 1vw;
+    float: right;
+}
+.section-service-list__hidden-texts-list{
+    display: none;
+    width: 50%;
+    list-style: none;
+    margin-left: 2.5vw;
+}
+.section-service-list__hidden-texts-itens{
+    font-size: 1.2vw;
+    color: #CDCDCD;
+    font-family: "Roboto";
+    margin-top: 1vw;
+}
+.section-service-list__background-color{
+    background-color: #F6F6F6;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+.section-service-list__costumer-display{
+    background-color: #FFFFFF;
+    width: 90%;
+    padding: 3vw;
+    border-radius: 30px;
+    height: 90%;
+    transition: 0.5s;
+}
+.section-service-list__title{
+    color: #0275D8;
+    font-size: 4vw;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+.section-service-list__search-bar{
+    display: flex;
+}
+.section-service-list__search-input{
+    width: 94%;
+    background-color: #F6F6F6;
+    color: #C4C4C4;
+    opacity: 75%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 2vw;
+    border-style: groove;
+    padding: 1vw;
+    border-right: none;
+}
+.section-service-list__search-button{
+    width: 6%;
+    background-color: #c4c4c4;
+    color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+    font-size: 2vw;
+    opacity: 75%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+.section-service-list__table{
+    width: 100%;
+    margin-top: 2vw;
+    font-family: "Roboto";
+    border: 0.25vw solid #ebeaea;
+    border-collapse: collapse;
+}
+.section-service-list__table-body__item{
+    font-size: 1.2vw;
+    border-top: 0.25vw solid #ebeaea;
+    padding: 1vw;
+    text-align: center;
+}
+.section-service-list__table-head__medium-item{
+    width: 20%;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+.section-service-list__table-head__big-item{
+    width: 45%;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+.section-service-list__table-head__small-item{
+    width: 17.5%;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+.section-service-list__table-head__arrow{
+    font-size: 1.2vw;
+    rotate:90deg;
+    color:#0275D8;
+    margin-left:0.3vw;
+}
+.section-service-list__pagination{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1vw;
+}
+.section-service-list__pagination-item{
+    border: 0.1vw solid #ebeaea;
+    list-style: none;
+    width: 3vw;
+    padding: 0.5vw;
+    text-align: center;
+    color: #0275D8;
+    font-size: 1vw;
+    font-family: "Roboto";
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+.section-service-list__pagination-item:hover{
+    background-color: #0275D8;
+    color: white;
+    cursor: pointer;
+}
+.section-service-list__table-body:hover{
+    background-color: #0275D8;
+    color: white;
+    cursor: pointer;
+}
+.section-service-list__table-body{
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+.section-service-edit{
+    position: absolute;
+    z-index: 1;
+    width: 75%;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+}
+.section-service-edit__container{
+    margin: 2vw;
+}
+.section-service-edit__title{
+    color: #0275D8;
+    font-size: 4vw;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+.section-service-edit__subtitle{
+    color: #0275D8;
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+    border-bottom: 0.3vw solid #ebeaea;
+    margin-bottom: 2vw;
+}
+.section-service-edit__first-inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+.section-service-edit__name-input{
+    width: 70%;
+    background-color: #F6F6F6;
+    color: #C4C4C4;
+    opacity: 75%;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    border-style: groove;
+    border-radius: 10px;
+}
+.section-service-edit__price-input{
+    width: 30%;
+    background-color: #F6F6F6;
+    color: #C4C4C4;
+    opacity: 75%;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    border-style: groove;
+    border-radius: 10px;
+}
+.section-service-edit__other-inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    margin-bottom: 1vw;
+}
+.section-service-edit__desctiption-input{
+    width: 68%;
+    background-color: #F6F6F6;
+    color: #C4C4C4;
+    opacity: 75%;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    border-style: groove;
+    border-radius: 10px;
+    height:20vh;
+}
+.section-service-edit__other-inputs__sub-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 29%;
+}
+.section-service-edit__category-input{
+    background-color: #F6F6F6;
+    color: #C4C4C4;
+    opacity: 75%;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    border-style: groove;
+    border-radius: 10px;
+}
+.section-service-edit__duration-input{
+    background-color: #F6F6F6;
+    color: #C4C4C4;
+    opacity: 75%;
+    border-style: groove;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+}
+.section-service-edit__footer{
+    display: flex;
+    flex-direction: row;
+    gap: 33vw;
+    margin-top: 8vw;
+    align-items: center;
+}
+.section-service-edit__inactive-box{
+    border: 2px solid black;
+    width: 1.5vw;
+    height: 3vh;
+    cursor: pointer;
+}
+.section-service-edit__buttons{
+    display: flex;
+    gap: 1.5vw;
+}
+.section-service-edit__inactive{
+    display: flex;
+    flex-direction: row;
+    gap:1vw;
+    justify-content: center;
+    align-items: center;
+}
+.section-service-edit__save-button{
+    width: 8vw;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #0275D8;
+    font-family: "ROBOTO";
+    border-radius: 10px;
+    padding: 0.5vw;
+    border: transparent;
+    cursor: pointer;
+}
+.section-service-edit__cancel-button{
+    width: 8vw;
+    font-size: 1.5vw;
+    color: white;
+    border: transparent;
+    background-color: #c4c4c4;
+    font-family: "ROBOTO";
+    border-radius: 10px;
+    padding: 0.5vw;
+    cursor: pointer;
+}
+.section-service-edit__inactive-text{
+    font-size: 1.5vw;
+    font-family: "ROBOTO";
+}
